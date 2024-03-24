@@ -1,0 +1,11 @@
+/* Custom CSS to override docsify styling */
+h1.app-name {
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+body {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

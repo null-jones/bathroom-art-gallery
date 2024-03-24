@@ -1,10 +1,8 @@
 * [Home](/)
-* [Contemporary Collection](collection/README.md)
+* [Permanent Collection](collection/README.md)
     * [Radishes](collection/radishes.md)
-    * [Anniversary](collection/anniversary.md)
-* Exhibitions
+    * [Acrylic Pour](collection/anniversary.md)
+* [Exhibitions](tattoo/tattoed-ladies/README.md)
     * [Tattoed Ladies](tattoo/tattoed-ladies/README.md)
         * [Irene Woodward](tattoo/tattoed-ladies/irene-woodward.md)
         * [Emma & Frank De Burgh](tattoo/tattoed-ladies/emma-deburg.md)
-
-
