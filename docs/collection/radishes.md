@@ -1,6 +1,6 @@
 <!-- panels:start -->
 <!-- div:left-panel -->
-    # Radishes
+# Radishes
 <span class="badge text-bg-secondary">
     <i class="fa-solid fa-palette"></i> Fiber Arts
 </span>
