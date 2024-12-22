@@ -2,6 +2,7 @@
 * [Permanent Collection](collection/)
     * [Radishes](collection/radishes.md)
     * [Acrylic Pour](collection/anniversary.md)
+    * [Sailboats](collection/sailboats.md)
     * [George Town View](collection/georgetown.md)
     * [Soothing](collection/soothing.md)
 * [Exhibitions](tattoo/tattoed-ladies/)
