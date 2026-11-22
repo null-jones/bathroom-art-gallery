@@ -1,0 +1,43 @@
+title: Acrylic Pour
+accession_number: null
+status: draft
+category: paintings
+
+artist:
+  name: null
+  nationality: null
+  dates: null
+
+date: null
+medium: Acrylic pour
+dimensions:
+  height: null
+  width: null
+  depth: null
+  unit: in
+  note: null
+
+credit_line: null
+acquisition:
+  method: null
+  source: null
+  year: null
+provenance: null
+
+location:
+  wall: north
+  along_ft: 1.2
+  position_confirmed: false
+
+image: null
+image_alt: null
+
+label: null
+description: null
+artist_bio: null
+
+audio:
+  stop: null
+  file: null
+  narrator: null
+  transcript: null

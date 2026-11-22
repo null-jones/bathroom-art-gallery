@@ -1,0 +1,35 @@
+# Collection categories, in display order.
+#
+# light_class sets the maximum illuminance on a work (see the lighting
+# standard). Classes follow the Canadian Conservation Institute's 50 lux
+# benchmark and the common three-tier museum practice:
+#   high     - very light sensitive: 50 lux maximum
+#   moderate - moderately sensitive: 200 lux maximum
+#   low      - insensitive: light level is not a constraint (keep under 1000 lux)
+#   assess   - decide per object and record it on the object
+
+- key: paintings
+  label: Paintings
+  light_class: moderate
+- key: prints
+  label: Prints
+  note: Includes engravings, etchings, lithographs and other printmaking.
+  light_class: high
+- key: photography
+  label: Photography
+  light_class: high
+- key: numismatics
+  label: Numismatics
+  note: Coins, tokens, medals and paper money. Paper money is light class high.
+  light_class: low
+- key: fossils-geology
+  label: Fossils & geology
+  note: Some minerals fade or darken in light; check each specimen.
+  light_class: assess
+- key: textiles
+  label: Textiles
+  note: Includes embroidery, cross-stitch and other needlework.
+  light_class: high
+- key: other
+  label: Other
+  light_class: assess

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated placards
+placards/output/
+
+# Wordmark build by-product
+brand/wordmark/wordmark-paths.json
+
+# Docusaurus
+website/node_modules/
+website/build/
+website/.docusaurus/
+website/.cache-loader/
+
+# OS
+.DS_Store

@@ -1,0 +1,23 @@
+# The gallery. Approximate dimensions, in feet; update when measured.
+width_ft: 8   # east-west
+depth_ft: 5   # north-south
+ceiling_ft: 9
+
+# Positions of works along a wall (object location.along_ft) are measured
+# from the west end for the north and south walls, and from the north end for
+# the east and west walls.
+walls:
+  north:
+    length_ft: 8
+    features: Toilet near the west corner; vanity (about 4 ft) beside it, with a mirror and vanity light above.
+  east:
+    length_ft: 5
+    features: Narrow window (about 1 x 4 ft) at the north end; entrance to the south, set slightly back from the wall.
+  south:
+    length_ft: 8
+    features: Uninterrupted; the main hanging wall.
+  west:
+    length_ft: 5
+    features: Narrow window (about 1 x 4 ft) at the north end.
+ceiling:
+  features: Combined light and exhaust fan towards the west.

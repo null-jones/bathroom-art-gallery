@@ -1,0 +1,47 @@
+# Template for a collection record. Copy to <slug>.yaml.
+# Unknown values stay null. Text fields are plain text; separate paragraphs
+# with a blank line.
+
+title: null                 # As the artist titled it, or a descriptive title in [brackets]
+accession_number: null      # YYYY.N.N: acquisition year . acquisition number that year . part
+status: draft               # draft | on-view | in-storage | on-loan
+category: null              # A key from categories.yaml
+
+artist:
+  name: null                # "Artist unknown" when unknown
+  nationality: null         # e.g. Canadian
+  dates: null               # e.g. "1921–2009", "born 1985"
+
+date: null                  # Display date: "1974", "c. 1960s–80s", "Undated"
+medium: null                # Materials and technique, e.g. "Oil on canvas board"
+dimensions:
+  height: null              # Height x width (x depth), as measured
+  width: null
+  depth: null
+  unit: in                  # in | cm. Labels show centimetres first, then inches.
+  note: null                # e.g. "Framed", "Sight size"
+
+credit_line: null           # e.g. "Gift of …", "Purchase, 2025"
+acquisition:
+  method: null              # gift | purchase | bequest | found | made
+  source: null
+  year: null
+provenance: null            # Ownership history, earliest first
+
+location:
+  wall: null                # north | east | south | west
+  along_ft: null            # Distance of the work's centre along the wall
+  position_confirmed: false # true once the work is hung there
+
+image: null                 # File in website/static/img/collection/
+image_alt: null             # What the photograph shows, for screen readers
+
+label: null                 # Placard text: 50 words or fewer
+description: null           # Longer text for the website
+artist_bio: null
+
+audio:
+  stop: null                # Audio guide stop number
+  file: null                # File in website/static/audio/
+  narrator: null
+  transcript: null
