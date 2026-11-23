@@ -1,0 +1,11 @@
+title: Tattooed Ladies
+status: draft        # draft | upcoming | current | past
+dates:
+  start: null        # YYYY-MM-DD
+  end: null
+summary: null
+works:
+  # Not yet catalogued. Each becomes an objects/*.yaml record when acquired
+  # or borrowed for the exhibition.
+  - title: Irene Woodward
+  - title: Emma and Frank de Burgh

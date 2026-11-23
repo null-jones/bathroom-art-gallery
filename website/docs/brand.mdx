@@ -1,0 +1,114 @@
+---
+title: Brand
+sidebar_position: 2
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+export const Swatch = ({hex}) => <span className="jw-swatch" style={{background: hex}} />;
+
+# Brand
+
+## Name
+
+| Use | Form |
+| --- | --- |
+| Short name: headers, placards, social media | The J&W Collection |
+| Full name: credit lines, footers, citations, first mention in running text | The Jones & Wilson Collection |
+| Web addresses, file names, repository | `jw-collection` (an ampersand cannot appear in a URL) |
+
+Write "J&W" with an ampersand and no spaces. Never "J.W.", "JW" or "J & W".
+
+## Wordmark
+
+<p>
+  <img src={useBaseUrl('/img/jw-lockup-paper.svg')} alt="The J&W Collection lockup on paper" style={{height: 160, marginRight: 32}} />
+  <img src={useBaseUrl('/img/jw-compact-paper.svg')} alt="J&W compact mark" style={{height: 90}} />
+</p>
+
+Two marks, both outlined from the fonts by `brand/wordmark/build_wordmark.py`
+so they render the same everywhere:
+
+- **Lockup:** THE / J&W / COLLECTION. Website footer, title cards, printed
+  matter.
+- **Compact mark:** J&W alone. Website header, favicon, QR code centres, video
+  watermarks.
+
+Construction (the script is the reference; do not redraw by hand):
+
+- J and W in Libre Caslon Display.
+- Ampersand in EB Garamond Medium at 0.57 of the cap size, raised 0.21 em.
+  It deliberately overlaps the W (about 0.07 em) and the J (0.015 em).
+- THE and COLLECTION in EB Garamond Medium capitals, letter-spaced 0.32 em,
+  centred on the cap-height mass of J&W (the J's descender is left out of the
+  centring) and set 0.19 em clear of it above and below.
+
+Colourways:
+
+| Background | Letters | Ampersand | THE / COLLECTION | Files |
+| --- | --- | --- | --- | --- |
+| Wall (oxblood) | Paper | Gilt | Gilt | `jw-lockup-wall.svg`, `jw-compact-wall.svg` |
+| Paper | Ink | Ink | Accent | `jw-lockup-paper.svg`, `jw-compact-paper.svg` |
+
+Keep clear space around the mark of at least the height of the ampersand. Do
+not stretch, recolour outside these colourways, add effects, or set the name in
+another typeface in place of the mark.
+
+## Colour
+
+| Swatch | Name | Hex | Use |
+| --- | --- | --- | --- |
+| <Swatch hex="#4A171C" /> | Deep oxblood (wall) | `#4A171C` | Gallery walls, hero sections, footer |
+| <Swatch hex="#2C1A27" /> | Deep aubergine (accent) | `#2C1A27` | Exhibitions, links, accession numbers, small capitals on paper |
+| <Swatch hex="#F3ECDF" /> | Paper | `#F3ECDF` | Placards, page background, text on dark grounds |
+| <Swatch hex="#EAE0CF" /> | Paper shade | `#EAE0CF` | Secondary panels |
+| <Swatch hex="#221C18" /> | Ink | `#221C18` | Body text |
+| <Swatch hex="#5E534B" /> | Muted ink | `#5E534B` | Secondary text on paper |
+| <Swatch hex="#B8955A" /> | Gilt | `#B8955A` | Frames, rules, ornaments |
+| <Swatch hex="#D9CBB8" /> | Paper on dark | `#D9CBB8` | Body text on oxblood or aubergine |
+
+Aubergine is **graphic only**. It is not painted in the room: at the chosen
+depths it has a contrast of 1.1:1 against the oxblood wall and would read as a
+slightly purple version of it.
+
+Measured text contrast (WCAG ratio; 4.5:1 is the usual minimum for body text):
+
+| Text on | Paper | Oxblood | Aubergine |
+| --- | --- | --- | --- |
+| Ink | 14.3:1 | | |
+| Muted ink | 6.4:1 | | |
+| Aubergine | 13.9:1 | | |
+| Paper | | 12.5:1 | 13.9:1 |
+| Paper on dark | | 9.2:1 | 10.3:1 |
+| Gilt | **2.4:1: ornament only** | 5.2:1 | 5.8:1 |
+
+The wall is very dark: its light reflectance is about 2%. Light the works and
+labels directly (see [Lighting](./lighting.md)) rather than relying on light
+bouncing off the walls.
+
+## Type
+
+| Role | Typeface | Notes |
+| --- | --- | --- |
+| Wordmark, website headings | Libre Caslon Display 400 | High contrast; never below 24 px. No italic exists. |
+| Everything else | EB Garamond 400, 500, 600 and italics | Body text, navigation, placards. Artwork titles in italic. |
+
+Both are under the SIL Open Font License and are self-hosted by the site; the
+font files are in `brand/fonts/`.
+
+Website scale: headings 68 / 44 / 34 px Libre Caslon Display; body 20 px EB
+Garamond with 1.6 line spacing; small text 16 px; eyebrows 14 px capitals
+letter-spaced 0.32 em. Placard sizes are in [Placards](./placards.md).
+
+## Voice and house style
+
+The collection writes like a real museum: plain, accurate, unhurried. Humour,
+when there is any, comes from context, never from puns in the copy.
+
+- Canadian spelling: colour, centre, harbour, catalogue.
+- Sentence case for headings and buttons.
+- Artwork titles in italic: *Sailboats*. Series names in roman: Ocean Soul series.
+- Dates: `1974`, `c. 1960s–80s` (lower-case `c.` for circa, en dash for ranges), `Undated`.
+- Dimensions: `40.6 × 50.8 cm (16 × 20 in.)`: height before width, centimetres first, the × sign, "in." with a full stop.
+- Unknown makers: "Artist unknown". Never guess an attribution; use "Attributed to" only when someone with grounds says so.
+- Placeholders never reach print or the public site as guesses: leave a field empty until it is known.

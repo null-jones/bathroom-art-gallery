@@ -1,0 +1,10 @@
+# Public address of the website. QR codes on placards point here, so change it
+# only before placards are printed (or reprint them afterwards).
+url: https://null-jones.github.io
+base_url: /bathroom-art-gallery/
+
+# Year the collection was founded, shown on the home page. null hides it.
+established: null
+
+# Work shown in the home page hero (a file name in objects/, without .yaml).
+featured: sailboats
